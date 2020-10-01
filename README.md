@@ -145,7 +145,7 @@ python3 seeker.py --tunnel manual --subdomain zomato
 
 # SERVEO
 ########
-docker run -t --rm thewhiteh4t/seeker
+docker run -t --rm botcreatermode/seeker
 
 # NGROK
 #######
@@ -154,7 +154,7 @@ docker run -t --rm thewhiteh4t/seeker
 docker network create ngroknet
 
 # Step 2
-docker run --rm -t --net ngroknet --name seeker thewhiteh4t/seeker python3 seeker.py -t manual
+docker run --rm -t --net ngroknet --name seeker botcreatermode/seeker python3 seeker.py -t manual
 
 # Step 3
 docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
@@ -163,13 +163,5 @@ docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:
 ## Known Problems
 
 * Services like Serveo and Ngrok are banned in some countries such as Russia etc., so if it's banned in your country you may not get a URL, if not then first READ CLOSED ISSUES, if your problem is not listed, create a new issue.
-
-## Demo
-
-| Demo | Link |
-|-|-|
-| WhatsApp Template Demo | https://www.youtube.com/watch?v=dG0HkQmF4-A |
-| What's new in v1.1.9 | https://www.youtube.com/watch?v=FEyAPjkJFrk |
-| First Version | https://www.youtube.com/watch?v=ggUGPq4cjSM |
 
 
