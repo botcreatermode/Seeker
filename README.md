@@ -6,11 +6,11 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/thewhiteh4t"><b>Twitter</b></a>
+  <a href="https://twitter.com/botcreatermode"><b>Twitter</b></a>
   <span> - </span>
-  <a href="https://t.me/thewhiteh4t"><b>Telegram</b></a>
+  <a href="https://t.me/botcreatermode"><b>Telegram</b></a>
   <span> - </span>
-  <a href="https://thewhiteh4t.github.io"><b>thewhiteh4t's Blog</b></a>
+  <a href="https://botcreatermode.github.io"><b>botcreatermode Blog</b></a>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
   <img src="https://i.imgur.com/1wJVDV5.png">
 </p>
 
-Concept behind Seeker is simple, just like we host phishing pages to get credentials why not host a fake page that requests your location like many popular location based websites. Read more on <a href="https://thewhiteh4t.github.io"> thewhiteh4t's Blog </a>.Seeker Hosts a fake website on **In Built PHP Server** and uses **Serveo** to generate a link which we will forward to the target, website asks for Location Permission and if the target allows it, we can get :
+Concept behind Seeker is simple, just like we host phishing pages to get credentials why not host a fake page that requests your location like many popular location based websites. Read more on <a href="https://botcreatermode.github.io"> botcreatermode's Blog </a>.Seeker Hosts a fake website on **In Built PHP Server** and uses **Serveo** to generate a link which we will forward to the target, website asks for Location Permission and if the target allows it, we can get :
 
 * Longitude
 * Latitude
@@ -58,8 +58,8 @@ Along with Location Information we also get **Device Information** without any p
 You can choose a template which will be used by seeker from these : 
 
 * NearYou
-* Google Drive (Suggested by @Akaal_no_one)
-* WhatsApp (Suggested by @Dazmed707)
+* Google Drive (Suggested by @botcreatermode)
+* WhatsApp (Suggested by @botcreatermode)
 * Telegram
 
 ## Tested On :
@@ -76,7 +76,7 @@ You can choose a template which will be used by seeker from these :
 ### Kali Linux / Ubuntu / Parrot OS
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/botcreatermode/seeker.git
 cd seeker/
 chmod 777 install.sh
 ./install.sh
@@ -91,13 +91,13 @@ pacman -S seeker
 ### Docker
 
 ```bash
-docker pull thewhiteh4t/seeker
+docker pull botcreatermode/seeker
 ```
 
 ### Termux
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/botcreatermode/seeker.git
 cd seeker/
 chmod 777 termux_install.sh
 ./termux_install.sh
